@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дверна профільна система WDS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #33271a;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header .order-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FF5722;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-left: 20px;
+        }
+        header .order-btn:hover {
+            background-color: #E64A19;
+        }
+        header a.home-link {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .container {
+            margin-top: 80px;
+            max-width: 1200px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .link-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .link-item {
+            width: 45%;
+            background-color: #33271a;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .link-item:hover {
+            background-color: #33271a;
+            transform: scale(1.05);
+        }
+        .link-item img {
+            width: 100%;
+            height: 150px; /* Висота зображення */
+            object-fit: cover;
+        }
+        .link-item h2 {
+            margin: 0;
+            padding: 15px;
+            font-size: 1.2em;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .link-item p {
+            margin: 0;
+            padding: 10px 15px;
+            font-size: 1em;
+            text-align: center;
+            background-color:#aa8255;
+        }
+        footer {
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+footer p {
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="home-link">Головна сторінка</a>
+    <a href="tel:+380975002960" class="order-btn">Замовити замір</a>
+</header>
+
+<div class="container">
+    <h1>Дверна профільна система WDS</h1>
+    <div class="link-list">
+        <a href="#" class="link-item">
+            <img src="wds-door-60mm.jpg" alt="WDS Двері 60ММ">
+            <h2>WDS Двері 60ММ</h2>
+            <p>Монтажна ширина - 60 мм</p>
+        </a>
+        <a href="#" class="link-item">
+            <img src="wds-door-70mm.jpg" alt="WDS Двері 70ММ">
+            <h2>WDS Двері 70ММ</h2>
+            <p>Монтажна ширина - 70 мм</p>
+        </a>
+    </div>
+</div>
+
+<footer>
+    <p>Зворотній зв'язок: <a href="tel:+380975002960">097 500 2960</a> - Роман</p>
+</footer>
+
+</body>
+</html>
